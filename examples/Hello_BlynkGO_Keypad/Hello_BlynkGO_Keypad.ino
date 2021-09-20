@@ -4,11 +4,11 @@
 const byte ROWS = 5;
 const byte COLS = 4;
 
-const char* key_str[] = { "" , "F1", "F2", "#", "*", 
-                          "1", "2", "3", "UP",
-                          "4", "5", "6", "DOWN",
-                          "7", "8", "9", "ESC",
-                          "LEFT", "0", "RIGHT", "ENTER" };
+const char* key_str[] = { "", "F1",   "F2", "#",    "*", 
+                              "1",    "2",  "3",    "UP",
+                              "4",    "5",  "6",    "DOWN",
+                              "7",    "8",  "9",    "ESC",
+                              "LEFT", "0",  "RIGHT","ENTER" };
                           
 enum{ KEY_F1=1, KEY_F2, KEY_SHARP,KEY_ASTERISK, 
       KEY_1,    KEY_2,  KEY_3,    KEY_UP,
@@ -87,4 +87,3 @@ void loop() {
     }
   }
 }
-
